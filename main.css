@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 50px auto 50px auto;
+  font-size: 50px;
+  font-family: Oswald;
+  color: black;
+}
+
+h3 {
+  position: fixed;
+  font-family: Dancing Script;
+  padding: 5px;
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%,-100%);
+}
+
+body {
+  background: url(https://img.lovepik.com/desgin_photo/45001/5355_list.jpg);
+  background-size: 400%;
+  background-repeat: none;
+  background-color: darkgray;
+  text-align: center;
+  font-family: Oswald;
+}
+
+#wrapper {
+  margin: auto;
+}
+
+.inputbox {
+  margin: auto;
+  position: relative;
+  width: 400px;
+}
+
+.inputbox input {
+  padding: 15px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: rgb(195, 255, 195);
+  outline: none;
+  color: black;
+  font-family: Oswald;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 14px;
+  color: rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  color: rgb(195, 255, 195);
+  transform: translateX(10px) translateY(-7px);
+  padding: 2px 10px;
+  font-size: 0.8em;
+  background: black;
+  border-radius: 3px;
+}
+
+#chu, #kq1 {
+  margin: 10px auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+}
+
+#kq {
+  margin: auto;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+}
